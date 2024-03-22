@@ -2,13 +2,14 @@ import { ne } from "drizzle-orm";
 
 async function getData() {
     // 1 endpoint -API?
-    const endpoint = "http://localhost:3000/api/posts";
-    const res = await fetch(endpoint);//HTTP GET method
+    // const endpoint = "http://localhost:3000/api/posts";
+    // const res = await fetch(endpoint);//HTTP GET method
 
-    if (!res.ok) {
-        throw new Error("Fialed to fetch data!");
-    }
-    return res.json();
+    // if (!res.ok) {
+    //     throw new Error("Fialed to fetch data!");
+    // }
+    // return res.json();
+    return {items:[]}
 }
 
 
